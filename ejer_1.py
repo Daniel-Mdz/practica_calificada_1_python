@@ -5,6 +5,12 @@
 # muestre por pantalla el grupo que le corresponde.
 
 
+print("----------------------------------------------------------------");
+print("--------- A = female (names start before the letter M) ---------");
+print("--------- A = male (names start after the letter n) ------------");
+print("-------------------- B = Others --------------------------------");
+print("----------------------------------------------------------------");
+
 name = input("Please enter your name: "); # exclui str(input) porque el texto ingresado esta en cadena
 while name.isalpha() == 0:
     print("\t [ERROR] - Please enter correct name: ");
