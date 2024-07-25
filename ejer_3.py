@@ -6,3 +6,12 @@
 # 18 años, 10€. 
 
 age = int(input("Please enter the client's age: "))
+while age < 0:
+    age = int(input("Please enter the client's age again: "))
+
+if age < 4:
+    print("The client is free to enter.")
+elif age < 18:
+    print("The client will pay 5€ for entry.")
+else:
+    print("The client will pay 10€ for entry.")
