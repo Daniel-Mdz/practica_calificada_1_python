@@ -11,12 +11,12 @@ print("--------- A = male (names start after the letter n) ------------");
 print("-------------------- B = Others --------------------------------");
 print("----------------------------------------------------------------");
 
-name = input("Please enter your name: "); # exclui str(input) porque el texto ingresado esta en cadena
+name = input("Please enter your name: "); # excluí str(input) porque el texto ingresado esta en cadena
 while name.isalpha() == 0:
     print("\t [ERROR] - Please enter correct name: ");
     name = input("Please enter your name: ");
 
-gender = input("Please enter your gender: "); # exclui str(input) porque el texto ingresado esta en cadena
+gender = input("Please enter your gender: "); # excluí str(input) porque el texto ingresado esta en cadena
 while gender.lower() != "male" and gender.lower() != "m" and gender.lower() != "female" and gender.lower() != "f":
     print("\t [ERROR] - Please enter correct gender");
     gender = input("Please enter your gender: ");
