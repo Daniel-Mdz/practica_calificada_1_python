@@ -4,14 +4,17 @@
 # del cliente y mostrar el precio de la entrada. Si el cliente es menor de 4 años 
 # puede entrar gratis, si tiene entre 4 y 18 años debe pagar 5€ y si es mayor de 
 # 18 años, 10€. 
+print("-----------------------------------------------------------")
+print("-------------------- Price to pay -------------------------")
+print("-----------------------------------------------------------")
 
 age = int(input("Please enter the client's age: "))
 while age < 0:
-    age = int(input("Please enter the client's age again: "))
+    age = int(input("\t [ERROR] - Please enter the client's age again: "))
 
 if age < 4:
-    print("The client is free to enter.")
+    print("\t Result => The client is free to enter.")
 elif age < 18:
-    print("The client will pay 5€ for entry.")
+    print("\t Result =>The client will pay 5€ for entry.")
 else:
-    print("The client will pay 10€ for entry.")
+    print("\t Result =>The client will pay 10€ for entry.")
