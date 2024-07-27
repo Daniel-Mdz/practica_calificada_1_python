@@ -20,8 +20,8 @@ while income.isnumeric() == 0:
     income = input("Please enter your monthly income: "); # Esta sin float() porque age.isnumeric() no funcion con enteros 
 
 if int(age) >= 16 and float(income) >= 1000: # Acá se convierte a age y income en entero y floar respectivamente para compararlos
-    print(f"You're {age} and monthly income is {income} - You can pay taxes");
+    print(f"You're {age} and monthly income is {income} - You can pay the taxes");
 else:
-    print(f"You're {age} and monthly income is {income} - You can't pay taxes");
+    print(f"You're {age} and monthly income is {income} - You can't pay the taxes");
 
     
